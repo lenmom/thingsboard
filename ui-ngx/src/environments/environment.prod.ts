@@ -15,11 +15,11 @@
 ///
 
 export const environment = {
-  appTitle: 'ThingsBoard',
+  appTitle: '明材智云工业互联网平台',
   production: true,
 // @ts-ignore
   tbVersion: TB_VERSION,
 // @ts-ignore
   supportedLangs: SUPPORTED_LANGS,
-  defaultLang: 'en_US'
+  defaultLang: 'zh_CN'
 };
