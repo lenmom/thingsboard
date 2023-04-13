@@ -19,13 +19,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  appTitle: 'ThingsBoard',
+  appTitle: '明材智云工业互联网平台',
   production: false,
 // @ts-ignore
   tbVersion: TB_VERSION,
 // @ts-ignore
   supportedLangs: SUPPORTED_LANGS,
-  defaultLang: 'en_US'
+  defaultLang: 'zh_CN'
 };
 
 /*
