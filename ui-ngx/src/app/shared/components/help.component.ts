@@ -28,14 +28,14 @@ export class HelpComponent {
   @Input('tb-help') helpLinkId: string;
 
   gotoHelpPage(): void {
-    let helpUrl = HelpLinks.linksMap[this.helpLinkId];
-    if (!helpUrl && this.helpLinkId &&
-      (this.helpLinkId.startsWith('http://') || this.helpLinkId.startsWith('https://'))) {
-      helpUrl = this.helpLinkId;
-    }
-    if (helpUrl) {
-      window.open(helpUrl, '_blank');
-    }
+    // let helpUrl = HelpLinks.linksMap[this.helpLinkId];
+    // if (!helpUrl && this.helpLinkId &&
+    //   (this.helpLinkId.startsWith('http://') || this.helpLinkId.startsWith('https://'))) {
+    //   helpUrl = this.helpLinkId;
+    // }
+    // if (helpUrl) {
+    //   window.open(helpUrl, '_blank');
+    // }
   }
 
 }
